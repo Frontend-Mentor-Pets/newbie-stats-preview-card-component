@@ -1,0 +1,88 @@
+@import '../../styles/colors.scss';
+
+.card {
+  width: 1110px;
+  height: 446px;
+  display: flex;
+  background-color: $dark-desaturated-blue;
+  border-radius: 8px;
+  margin-top: 177px;
+}
+
+.header {
+  width: 540px;
+  height: 446px;
+  position: relative;
+  flex: 1 0 auto;
+  order: 1;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 100%;
+  background-image: url(../../assets/images/image-header-desktop.jpg);
+}
+
+.color {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: $soft-violet-transparent;
+}
+
+.content {
+  padding-top: 74px;
+  padding-right: 115px;
+  padding-left: 72px;
+}
+
+.title {
+  font-family: 'inter-bold', sans-serif;
+  font-size: 35px;
+  letter-spacing: 0.5px;
+  line-height: 43px;
+  color: $white;
+  margin-bottom: 24px;
+
+  & span {
+    color: $soft-violet;
+  }
+}
+
+.subtitle {
+  line-height: 25px;
+  margin-bottom: 75px;
+}
+
+.stats {
+  width: 352px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.value {
+  font-size: 25px;
+  letter-spacing: 0.3px;
+  color: $white;
+}
+
+.name {
+  font-family: 'lexend-deca', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+}
