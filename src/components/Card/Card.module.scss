@@ -32,7 +32,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: $soft-violet-transparent;
+  background-color: $soft-violet;
+  opacity: 0.5;
 }
 
 .content {
@@ -85,4 +86,5 @@
   font-family: 'lexend-deca', sans-serif;
   font-size: 13px;
   text-transform: uppercase;
+  color: $slightly-transparent-white;
 }
