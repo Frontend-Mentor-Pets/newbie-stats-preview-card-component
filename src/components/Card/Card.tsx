@@ -3,10 +3,10 @@ import styles from './Card.module.scss';
 const Card = () => {
   return (
     <div className={styles.card}>
-      <h1 className={styles.header}>
+      <div className={styles.header}>
         <div className={styles.img}></div>
         <div className={styles.color}></div>
-      </h1>
+      </div>
       <div className={styles.content}>
         <h1 className={styles.title}>
           Get <span>insights</span> that help your business grow.
